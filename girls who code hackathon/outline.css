@@ -1,0 +1,46 @@
+/*Outline for the a typical CSS file*/
+h1{ /*Element you want to style corresponding to html tag*/
+    /*Color: blue (this is how you insert a set style for css)*/
+    color: rgb(29, 49, 123);
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
+    padding: lem;
+    text-align: center;
+
+}
+
+nav{
+    background-color: blue;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+
+section {
+    max-width: 800px;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 2em;
+}
